@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ps_hyggligpayment</name>
+	<displayName><![CDATA[Hygglig payment]]></displayName>
+	<version><![CDATA[1.8.0]]></version>
+	<description><![CDATA[This module allows you to accept payments using Hygglig.]]></description>
+	<author><![CDATA[Marginalen Financial Services]]></author>
+	<tab><![CDATA[payment_methods]]></tab>
+	<confirmUninstall>Are you sure you want to delete Hygglig?</confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
