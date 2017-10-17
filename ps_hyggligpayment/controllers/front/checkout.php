@@ -136,7 +136,7 @@ class Ps_HyggligpaymentCheckoutModuleFrontController extends ModuleFrontControll
 
   protected function getBaseURI(){
     if ((int) (Configuration::get('HCO_TESTMODE')) == 1) {
-      $this->baseUri = 'https://sandbox.hygglig.com/Checkout/api/Checkout/';
+      $this->baseUri = 'http://sandbox.hygglig.com/Checkout/api/Checkout/';
     } else {
       $this->baseUri = 'https://www.hygglig.com/Checkout/api/Checkout/';
     }
